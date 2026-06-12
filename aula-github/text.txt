@@ -1,12 +1,9 @@
 Comandos de GIT para utilizar no terminal do VScode
 
--------------------------------------------------------------------------------------------------
-
-Comando:
-O que faz:
-Explicação simples:
-Quando usar:
-Exemplo:
+Principalmente as alterações quando está trabalhando sozinho vai ser basicamente
+Git add .
+Git commit -m "upload/V0.1" dentro do "" podem ter qualquer informação mas ideial é seguir com create/update/add/correction
+Git push
 
 -------------------------------------------------------------------------------------------------
 
