@@ -1,0 +1,121 @@
+Comandos de GIT para utilizar no terminal do VScode
+
+-------------------------------------------------------------------------------------------------
+
+Comando:
+O que faz:
+Explicação simples:
+Quando usar:
+Exemplo:
+
+-------------------------------------------------------------------------------------------------
+
+Comando: git init
+O que faz: inicializa um repositório
+Explicação simples: cria um repositório Git na pasta atual
+Quando usar: Ao começar um projeto do zero
+Exemplo: git init
+
+-------------------------------------------------------------------------------------------------
+
+Comando: git clone <URL>
+O que faz: Clona um repositório
+Explicação simples: Baixa um projeto existente do GitHub
+Quando usar: Quando vai trabalhar em um projeto já criado
+Exemplo: git clone https://github.com/user/projeto.git
+
+-------------------------------------------------------------------------------------------------
+
+Comando: git status
+O que faz: Mostra o estado do repositório
+Explicação simples: Exibe arquivos modificados, adicionados ou não rastreados
+Quando usar: Sempre antes de fazer commit
+Exemplo: git status
+
+-------------------------------------------------------------------------------------------------
+
+Comando: git add .
+O que faz: Adiciona todos os arquivos
+Explicação simples: Coloca todos os arquivos modificados na área de preparação (staging)
+Quando usar: Antes de fazer commit
+Exemplo: git add .
+
+-------------------------------------------------------------------------------------------------
+
+Comando: git add <arquivo>
+O que faz: Adiciona arquivo específico
+Explicação simples: Adiciona apenas um arquivo ao staging 
+Quando usar: Quando quer subir só um arquivo 
+Exemplo: git add index.html
+
+-------------------------------------------------------------------------------------------------
+
+Comando: 
+O que faz:
+Explicação simples:
+Quando usar:
+Exemplo:
+
+-------------------------------------------------------------------------------------------------
+
+Comando: 
+O que faz:
+Explicação simples:
+Quando usar:
+Exemplo:
+
+-------------------------------------------------------------------------------------------------
+
+Comando: 
+O que faz:
+Explicação simples:
+Quando usar:
+Exemplo:
+
+-------------------------------------------------------------------------------------------------
+
+Comando: 
+O que faz:
+Explicação simples:
+Quando usar:
+Exemplo:
+
+-------------------------------------------------------------------------------------------------
+
+Comando: 
+O que faz:
+Explicação simples:
+Quando usar:
+Exemplo:
+
+-------------------------------------------------------------------------------------------------
+
+Comando: 
+O que faz:
+Explicação simples:
+Quando usar:
+Exemplo:
+
+-------------------------------------------------------------------------------------------------
+
+Comando: 
+O que faz:
+Explicação simples:
+Quando usar:
+Exemplo:
+
+-------------------------------------------------------------------------------------------------
+
+Comando: 
+O que faz:
+Explicação simples:
+Quando usar:
+Exemplo:
+
+-------------------------------------------------------------------------------------------------
+
+Comando: 
+O que faz:
+Explicação simples:
+Quando usar:
+Exemplo:
