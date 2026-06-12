@@ -50,72 +50,160 @@ Exemplo: git add index.html
 
 -------------------------------------------------------------------------------------------------
 
-Comando: 
-O que faz:
-Explicação simples:
-Quando usar:
-Exemplo:
+Comando: git commit -m "mensagem"
+O que faz: Cria um commit  
+Explicação simples: Salva as alterações com uma descrição
+Quando usar: Após adicionar arquivos 
+Exemplo: git commit -m "Corrige login"
 
 -------------------------------------------------------------------------------------------------
 
-Comando: 
-O que faz:
-Explicação simples:
-Quando usar:
-Exemplo:
+Comando: git push
+O que faz: Envia alterações
+Explicação simples: Envia commits para o repositório remoto
+Quando usar: Após commit
+Exemplo: git push origin main
 
 -------------------------------------------------------------------------------------------------
 
-Comando: 
-O que faz:
-Explicação simples:
-Quando usar:
-Exemplo:
+Comando: git push --force
+O que faz: Força envio
+Explicação simples: Sobrescreve o histórico remoto
+Quando usar: Quando precisa corrigir histórico (cuidado!)
+Exemplo: git push --force
 
 -------------------------------------------------------------------------------------------------
 
-Comando: 
-O que faz:
-Explicação simples:
-Quando usar:
-Exemplo:
+Comando: git pull <branch>
+O que faz: Atualiza projeto
+Explicação simples: Baixa e mescla alterações do repositório remoto
+Quando usar: Antes de começar a trabalhar
+Exemplo: git pull origin main
 
 -------------------------------------------------------------------------------------------------
 
-Comando: 
-O que faz:
-Explicação simples:
-Quando usar:
-Exemplo:
+Comando: git fetch
+O que faz: Busca atualizações
+Explicação simples: Baixa alterações sem aplicar automaticamente
+Quando usar: Quando quer revisar antes de atualizar
+Exemplo: git fetch
 
 -------------------------------------------------------------------------------------------------
 
-Comando: 
-O que faz:
-Explicação simples:
-Quando usar:
-Exemplo:
+Comando: git merge <branch>
+O que faz: Junta branches
+Explicação simples: Mescla uma branch com a atual
+Quando usar: Para integrar funcionalidades
+Exemplo: git merge dev
 
 -------------------------------------------------------------------------------------------------
 
-Comando: 
-O que faz:
-Explicação simples:
-Quando usar:
-Exemplo:
+Comando: git checkout -b <branch>
+O que faz: Cria nova branch
+Explicação simples: Cria e já muda para ela
+Quando usar: Para iniciar nova funcionalidade
+Exemplo: git checkout -b feature-login
 
 -------------------------------------------------------------------------------------------------
 
-Comando: 
-O que faz:
-Explicação simples:
-Quando usar:
-Exemplo:
+Comando: git checkout <branch>
+O que faz: Troca de branch
+Explicação simples: Muda para outra branch existente
+Quando usar: Para navegar entre versões
+Exemplo: git checkout main
 
 -------------------------------------------------------------------------------------------------
 
-Comando: 
-O que faz:
-Explicação simples:
-Quando usar:
-Exemplo:
+Comando: git switch <branch> 
+O que faz: Alternativa ao checkout 
+Explicação simples: Troca de branch de forma mais moderna
+Quando usar: Mesmo uso do checkout 
+Exemplo: git switch dev
+
+-------------------------------------------------------------------------------------------------
+
+Comando: git branch
+O que faz: Lista branches
+Explicação simples: Mostra todas as branches 
+Quando usar: Para visualizar o projeto
+Exemplo: git branch
+
+-------------------------------------------------------------------------------------------------
+
+Comando: git branch <nome>
+O que faz: Cria branch
+Explicação simples: Cria uma nova branch
+Quando usar: Antes de desenvolver algo novo
+Exemplo: git branch nova-feature
+
+-------------------------------------------------------------------------------------------------
+
+Comando: git branch -d <branch>
+O que faz: Deleta branch
+Explicação simples: Remove uma branch local
+Quando usar: Após finalizar uma feature
+Exemplo: git branch -d feature-login
+
+-------------------------------------------------------------------------------------------------
+
+Comando: git log --oneline
+O que faz: Histórico resumido
+Explicação simples: Mostra commits em uma linha
+Quando usar: Visualização rápida
+Exemplo: git log --oneline
+
+-------------------------------------------------------------------------------------------------
+
+Comando: git diff
+O que faz: Mostra diferenças
+Explicação simples: Exibe mudanças entre versões
+Quando usar: Antes de commitar
+Exemplo: git diff
+
+-------------------------------------------------------------------------------------------------
+
+Comando: git reset --hard
+O que faz: Reseta tudo
+Explicação simples: Volta para um estado anterior apagando mudanças
+Quando usar: Quando quer descartar tudo
+Exemplo: git reset --hard HEAD
+
+-------------------------------------------------------------------------------------------------
+
+Comando: git restore <arquivo>
+O que faz: Restaura arquivo
+Explicação simples: Desfaz alterações em arquivo
+Quando usar: Para cancelar mudanças
+Exemplo: git restore index.html
+
+-------------------------------------------------------------------------------------------------
+
+Comando: git stash
+O que faz: Guarda alterações temporárias
+Explicação simples: Salva mudanças sem commitar 
+Quando usar: Quando precisa trocar de branch rápido
+Exemplo: git stash
+
+-------------------------------------------------------------------------------------------------
+
+Comando: git stash pop
+O que faz: Recupera stash
+Explicação simples: Traz de volta alterações salvas
+Quando usar: Após voltar ao trabalho
+Exemplo: git stash pop
+
+-------------------------------------------------------------------------------------------------
+
+Comando: git remote -v
+O que faz: Lista repositórios remotos
+Explicação simples: Mostra conexão com GitHub
+Quando usar: Para verificar origem 
+Exemplo: git remote -v
+
+-------------------------------------------------------------------------------------------------
+
+Comando: git remote add origin <url>
+O que faz: Conecta ao GitHub
+Explicação simples: Liga repositório local ao remoto
+Quando usar: Ao subir projeto pela primeira vez
+Exemplo: git remote add origin <url>
