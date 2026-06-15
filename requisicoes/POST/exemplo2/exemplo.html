@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<!-- Crie um sistema para inserir: Nome, email, idade e Curso. Que valide os campos vazios utilizando POST, mostrando uma mensagem formatada -->
+
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 1</title>
+</head>
+
+<body>
+    <form method="POST" action="login.php" required>
+        <label>Nome</label>
+        <input type="text" name="nome" required placeholder="Digite seu nome">
+
+        <label>Email</label>
+        <input type="email" name="email" required placeholder="Digite o seu email">
+
+        <label>Idade</label>
+        <input type="number" name="idade" required placeholder="Digite a sua idade">
+        
+        <label>Curso</label>
+        <input type="text" name="curso" required placeholder="Qual seu curso?">
+
+        <button type="submit">Entrar</button>
+    </form>
+</body>
+
+</html>

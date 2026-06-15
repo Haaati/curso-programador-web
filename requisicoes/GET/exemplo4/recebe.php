@@ -23,6 +23,7 @@ switch ($ope) {
         break;
     default:
         echo "Insira uma operação válida";
+        break;
 }
 
 ?>
