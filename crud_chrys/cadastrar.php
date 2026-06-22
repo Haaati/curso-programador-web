@@ -1,11 +1,12 @@
 <?php
 
-include("conexos.php");
+include("conexao.php");
 
 $nome = $_POST['nome'];
 $idade = $_POST['idade'];
 
-$sql = "INSERT INTO alunos(nome, idade) VALUES('$nome', '$idade')";
+$sql = "INSERT INTO alunos(nome, idade) 
+    VALUES('$nome', '$idade')";
 
 mysqli_query($conexao, $sql);
 

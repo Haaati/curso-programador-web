@@ -2,7 +2,7 @@
 
 $host = "localhost";
 $usuario = "root";
-$senha = "root"; //aqui você vai colcoar a senha do banco de dados
+$senha = "1234"; //aqui você vai colcoar a senha do banco de dados
 $banco = "senac";
 
 $conexao = mysqli_connect($host, $usuario, $senha, $banco);

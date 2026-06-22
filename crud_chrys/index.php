@@ -8,7 +8,7 @@
 <body>
 
     <h1>Cadastro de alunos</h1>
-    <form action="cadastra.php" method="POST">
+    <form action="cadastrar.php" method="POST">
         <label for="nome">Nome:</label>
         <input type="text" name="nome" id="name" placeholder="Digite o nome do aluno" required>
 
