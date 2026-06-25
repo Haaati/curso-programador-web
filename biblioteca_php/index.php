@@ -35,7 +35,7 @@
 
         <a href="cadastro.php" class="btn btn-voltar">Voltar para o cadastro</a>
         <div class="dica-navegacao">
-            <strong>Fluxo:</strong> Login → Painel -> Cadastrar ou lisrar livros.
+            <strong>Fluxo:</strong> Login → Painel → Cadastrar ou listar livros.
         </div>
     </div>
 </body>

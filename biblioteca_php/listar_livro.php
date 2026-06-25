@@ -39,7 +39,7 @@ $resultado = mysqli_query($conexao, $sql);
                     <td><?php echo $livro['id']; ?></td>
                     <td><?php echo $livro['titulo']; ?></td>
                     <td><?php echo $livro['autor']; ?></td>
-                    <td><?php echo $livro['stutus']; ?></td>
+                    <td><?php echo $livro['status']; ?></td>
                     <td class="acoes">
                         <a href="editar_livro.php?id=<?php echo $livro['id']; ?>" class="link-editar">Editar</a>
                         <a href="excluir_livro.php?id=<?php echo $livro['id']; ?>" class="link-excluir">Excluir</a>

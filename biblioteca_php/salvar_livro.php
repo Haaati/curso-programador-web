@@ -11,7 +11,7 @@ $sql = "INSERT INTO livros (titulo, autor, status) VALUES ('$titulo', '$autor', 
 
 mysqli_query($conexao, $sql);
 
-header("Location: listar_livros.php");
+header("Location: listar_livro.php");
 
 exit()
 

@@ -17,12 +17,12 @@ include("verificar_sessao.php");
 
         <div class="painel-cards">
             <a href="cadastrar_livro.php" class="card-link">Cadastrar Novo Livro</a>
-            <a href="listar_livros.php" class="card-link">Listar Livros</a>
+            <a href="listar_livro.php" class="card-link">Listar Livros</a>
             <a href="logout.php" class="card-link">Sair</a>
         </div>
 
         <div class="dica-navegacao">
-            <strong>Fluxo:</strong> Painel -> Cadastrar ou listar livros -> Editar ou excluir livros.
+            <strong>Fluxo:</strong> Painel → Cadastrar ou listar livros → Editar ou excluir livros.
         </div>
 </body>
 </html>

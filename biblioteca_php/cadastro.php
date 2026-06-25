@@ -41,7 +41,7 @@
         <a href="index.php" class="btn btn-voltar">Voltar para a página inicial</a>
 
         <div class="dica-navegacao">
-            <strong>Fluxo:</strong> Cadastro de usuário → Login → Painel -> Gerenciar livros.
+            <strong>Fluxo:</strong> Cadastro de usuário → Login → Painel → Gerenciar livros.
         </div>
     </div>
 </body>

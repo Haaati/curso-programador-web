@@ -12,7 +12,7 @@ $sql = "UPDATE livros SET titulo='$titulo', autor='$autor', status='$status' WHE
 
 mysqli_query($conexao, $sql);
 
-header("Location: listar_livros.php");
+header("Location: listar_livro.php");
 exit();
 
 ?>
